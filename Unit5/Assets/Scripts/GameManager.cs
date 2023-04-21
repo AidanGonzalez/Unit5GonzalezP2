@@ -19,17 +19,16 @@ public class GameManager : MonoBehaviour
     IEnumerator SpawnTarget()
     {
         while (true)
-        {
-            UpdateScore(5); 
+        { 
             yield return new WaitForSeconds(spawnRate);
             int index = Random.Range(0, targets.Count);
             Instantiate(targets[index]);
         }
     }
     // Update is called once per frame
-   private void UpdateScore(int scoreToAdd)
-    {
+   public void UpdateScore(int scoreToAdd)
+    { 
         score += scoreToAdd;
         scoreText.text = "Score: " + score;
-    }
+   }
 }
