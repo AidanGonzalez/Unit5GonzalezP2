@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 6340937621668179613}
   - component: {fileID: 6268028704146021267}
   - component: {fileID: 3497994360080686476}
-  - component: {fileID: 7723954716518391790}
   - component: {fileID: 8355947192044460617}
+  - component: {fileID: -8230506993409518374}
   m_Layer: 0
   m_Name: Bad1
   m_TagString: Bad
@@ -123,19 +123,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &7723954716518391790
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6317372966793850771}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.42606845, y: 0.574536, z: 0.44799495}
-  m_Center: {x: -0.000000023841858, y: 0.09832098, z: 0.000000047683717}
 --- !u!114 &8355947192044460617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,3 +137,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionParticle: {fileID: 4758139293545943008, guid: c7ad2532a6eeb40b59033c75e71fa054, type: 3}
   pointValue: -5
+--- !u!65 &-8230506993409518374
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6317372966793850771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.42606845, y: 0.60958624, z: 0.44799495}
+  m_Center: {x: -0.000000014901161, y: 0.08079566, z: 0.000000052154064}
